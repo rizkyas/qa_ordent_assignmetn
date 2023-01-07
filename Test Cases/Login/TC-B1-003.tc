@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register akun dengan menginputkan email yang bukan formatnya</description>
+   <name>TC-B1-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>500389b6-b30a-4d0a-af8e-c45004ce45fd</testCaseGuid>
+</TestCaseEntity>

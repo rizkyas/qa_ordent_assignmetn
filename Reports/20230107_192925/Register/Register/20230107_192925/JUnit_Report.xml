@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="50.114" tests="3" failures="0" errors="0">
+   <testsuite name="Register" tests="3" failures="0" errors="0" time="50.114" skipped="0" timestamp="2023-01-07 19:29:28" hostname="rizky - RizkyAS" id="Test Suites/Register/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_192925\\Register\\Register\\20230107_192925"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_192925\\Register\\Register\\20230107_192925\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizky - RizkyAS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="61aa1462b0c6d706c2503f197b04b502"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/TC-A1-001" time="15.659" classname="Test Cases/Register/TC-A1-001" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:29:29 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-001: Test Cases/Register/TC-A1-001
+
+2023-01-07 19:29:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:29:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:29:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:29:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:29:31 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:29:33 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:29:33 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:29:39 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:29:40 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@gmail.com"): Text 'afsyussalaam@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:29:41 - [MESSAGE][PASSED] - Text 'afsyussalaam@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490881"): Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:29:42 - [MESSAGE][PASSED] - Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:29:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:29:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:29:43 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:29:43 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 19:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-002" time="15.645" classname="Test Cases/Register/TC-A1-002" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:29:44 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-002: Test Cases/Register/TC-A1-002
+
+2023-01-07 19:29:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:29:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 19:29:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:29:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:29:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:29:47 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:29:48 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:29:48 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:29:53 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@"): Text 'afsyussalaam@' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:29:54 - [MESSAGE][PASSED] - Text 'afsyussalaam@' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:29:54 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email harus mengandung")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' is clicked on
+
+2023-01-07 19:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' is clicked on
+
+2023-01-07 19:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@gmail.com"): Text 'afsyussalaam@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:29:56 - [MESSAGE][PASSED] - Text 'afsyussalaam@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490881"): Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:29:57 - [MESSAGE][PASSED] - Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:29:57 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:29:58 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 19:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-003" time="17.014" classname="Test Cases/Register/TC-A1-003" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:30:00 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-003: Test Cases/Register/TC-A1-003
+
+2023-01-07 19:30:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:30:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 19:30:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:30:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:30:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:30:02 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:30:05 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:30:06 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:30:10 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:30:11 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:30:11 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@"): Text 'afsyussalaam@' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:30:13 - [MESSAGE][PASSED] - Text 'afsyussalaam@' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:30:13 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email harus mengandung")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' is clicked on
+
+2023-01-07 19:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' is clicked on
+
+2023-01-07 19:30:13 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@yopmail.com"): Text 'afsyussalaam@yopmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:30:14 - [MESSAGE][PASSED] - Text 'afsyussalaam@yopmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490881"): Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:30:15 - [MESSAGE][PASSED] - Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:30:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:30:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:30:15 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:30:16 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 19:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-07 19:29:28 - [TEST_SUITE][PASSED] - Register: Test Cases/Register/TC-A1-003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

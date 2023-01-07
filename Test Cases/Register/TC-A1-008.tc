@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register akun dengan menginputkan Buat Kata Sandi kurang dari 8 karakter</description>
+   <name>TC-A1-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b947c7f8-fb5b-4d96-8824-9aad3d89996d</testCaseGuid>
+</TestCaseEntity>

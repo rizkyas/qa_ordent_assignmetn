@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register akun dengan menginputkan, Buat Kata Sandi terdiri dari huruf besar saja</description>
+   <name>TC-A1-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c75f2361-1286-418d-ab31-c0346193d44c</testCaseGuid>
+</TestCaseEntity>

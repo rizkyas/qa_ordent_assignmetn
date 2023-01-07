@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register akun dengan menginputkan email yang sudah Terdaftar</description>
+   <name>TC-A1-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae9c3a28-2063-45ef-879e-8a28f4ac93ac</testCaseGuid>
+</TestCaseEntity>

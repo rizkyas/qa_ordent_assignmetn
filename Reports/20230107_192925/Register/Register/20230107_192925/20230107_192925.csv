@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 108.0.0.0,,,2023-01-07 19:29:28,2023-01-07 19:30:17,48.601s,PASSED
+,,,,,,,
+Test Cases/Register/TC-A1-001,Chrome 108.0.0.0,Register akun dengan menginputkan email yang bukan formatnya,,2023-01-07 19:29:29,2023-01-07 19:29:44,15.659s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-07 19:29:29,2023-01-07 19:29:31,2.508s,PASSED
+"navigateToUrl(""https://bioskoponline.com/"")",Chrome 108.0.0.0,,,2023-01-07 19:29:31,2023-01-07 19:29:33,1.145s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/span_Daftar""))",Chrome 108.0.0.0,,,2023-01-07 19:29:33,2023-01-07 19:29:39,6.517s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__name""), ""Afsyus Salaam"")",Chrome 108.0.0.0,,,2023-01-07 19:29:39,2023-01-07 19:29:40,1.144s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__email""), ""afsyussalaam@gmail.com"")",Chrome 108.0.0.0,,,2023-01-07 19:29:40,2023-01-07 19:29:41,0.905s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__phone""), ""081310490881"")",Chrome 108.0.0.0,,,2023-01-07 19:29:41,2023-01-07 19:29:42,0.984s,PASSED
+"setEncryptedText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f""), ""iFGeFYmXIrUhQZHvW7P22w=="")",Chrome 108.0.0.0,,,2023-01-07 19:29:42,2023-01-07 19:29:43,0.613s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/span_Lanjutkan""))",Chrome 108.0.0.0,,,2023-01-07 19:29:43,2023-01-07 19:29:43,0.529s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar""))",Chrome 108.0.0.0,,,2023-01-07 19:29:43,2023-01-07 19:29:44,0.938s,PASSED
+,,,,,,,
+Test Cases/Register/TC-A1-002,Chrome 108.0.0.0,Register akun dengan menginputkan email yang bukan formatnya,,2023-01-07 19:29:44,2023-01-07 19:30:00,15.645s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-07 19:29:45,2023-01-07 19:29:47,1.920s,PASSED
+"navigateToUrl(""https://bioskoponline.com/"")",Chrome 108.0.0.0,,,2023-01-07 19:29:47,2023-01-07 19:29:48,1.553s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/span_Daftar""))",Chrome 108.0.0.0,,,2023-01-07 19:29:48,2023-01-07 19:29:52,3.645s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__name""), ""Afsyus Salaam"")",Chrome 108.0.0.0,,,2023-01-07 19:29:52,2023-01-07 19:29:53,1.330s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__email""), ""afsyussalaam@"")",Chrome 108.0.0.0,,,2023-01-07 19:29:53,2023-01-07 19:29:54,1.317s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/div_Email harus mengandung""))",Chrome 108.0.0.0,,,2023-01-07 19:29:54,2023-01-07 19:29:55,0.624s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__email""), ""afsyussalaam@gmail.com"")",Chrome 108.0.0.0,,,2023-01-07 19:29:55,2023-01-07 19:29:56,0.926s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__phone""), ""081310490881"")",Chrome 108.0.0.0,,,2023-01-07 19:29:56,2023-01-07 19:29:57,0.886s,PASSED
+"setEncryptedText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f""), ""iFGeFYmXIrUhQZHvW7P22w=="")",Chrome 108.0.0.0,,,2023-01-07 19:29:57,2023-01-07 19:29:57,0.565s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/span_Lanjutkan""))",Chrome 108.0.0.0,,,2023-01-07 19:29:57,2023-01-07 19:29:58,0.488s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar""))",Chrome 108.0.0.0,,,2023-01-07 19:29:58,2023-01-07 19:30:00,2.015s,PASSED
+,,,,,,,
+Test Cases/Register/TC-A1-003,Chrome 108.0.0.0,Register akun dengan menginputkan email yang bukan formatnya,,2023-01-07 19:30:00,2023-01-07 19:30:17,17.014s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-07 19:30:00,2023-01-07 19:30:02,2.012s,PASSED
+"navigateToUrl(""https://bioskoponline.com/"")",Chrome 108.0.0.0,,,2023-01-07 19:30:02,2023-01-07 19:30:06,3.229s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/span_Daftar""))",Chrome 108.0.0.0,,,2023-01-07 19:30:06,2023-01-07 19:30:10,4.936s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__name""), ""Afsyus Salaam"")",Chrome 108.0.0.0,,,2023-01-07 19:30:10,2023-01-07 19:30:11,0.987s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__email""), ""afsyussalaam@"")",Chrome 108.0.0.0,,,2023-01-07 19:30:11,2023-01-07 19:30:13,1.103s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/div_Email harus mengandung""))",Chrome 108.0.0.0,,,2023-01-07 19:30:13,2023-01-07 19:30:13,0.528s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__email""), ""afsyussalaam@yopmail.com"")",Chrome 108.0.0.0,,,2023-01-07 19:30:13,2023-01-07 19:30:14,0.817s,PASSED
+"setText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__phone""), ""081310490881"")",Chrome 108.0.0.0,,,2023-01-07 19:30:14,2023-01-07 19:30:15,0.920s,PASSED
+"setEncryptedText(findTestObject(""TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f""), ""iFGeFYmXIrUhQZHvW7P22w=="")",Chrome 108.0.0.0,,,2023-01-07 19:30:15,2023-01-07 19:30:15,0.617s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/span_Lanjutkan""))",Chrome 108.0.0.0,,,2023-01-07 19:30:15,2023-01-07 19:30:16,0.521s,PASSED
+"click(findTestObject(""TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar""))",Chrome 108.0.0.0,,,2023-01-07 19:30:16,2023-01-07 19:30:17,0.957s,PASSED

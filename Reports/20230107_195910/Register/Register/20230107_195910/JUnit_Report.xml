@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="219.962" tests="11" failures="2" errors="0">
+   <testsuite name="Register" tests="11" failures="2" errors="0" time="219.962" skipped="0" timestamp="2023-01-07 19:59:14" hostname="rizky - RizkyAS" id="Test Suites/Register/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_195910\\Register\\Register\\20230107_195910"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_195910\\Register\\Register\\20230107_195910\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_195910\\Register\\Register\\20230107_195910\\1673096496444.png, C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_195910\\Register\\Register\\20230107_195910\\1673096557112.png"/>
+         <property name="hostName" value="rizky - RizkyAS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="3d94d93c95769e583a4b2d42e365d702"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/TC-A1-001" time="13.597" classname="Test Cases/Register/TC-A1-001" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:59:15 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-001: Test Cases/Register/TC-A1-001
+
+2023-01-07 19:59:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:59:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:59:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:59:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:59:18 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:59:21 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:59:21 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:59:27 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:59:27 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@"): Text 'afsyussalaam@' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:59:28 - [MESSAGE][PASSED] - Text 'afsyussalaam@' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:59:28 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email harus mengandung")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' is clicked on
+
+2023-01-07 19:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-002" time="14.331" classname="Test Cases/Register/TC-A1-002" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:59:28 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-002: Test Cases/Register/TC-A1-002
+
+2023-01-07 19:59:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:59:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 19:59:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:59:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:59:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:59:31 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:59:33 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:59:33 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:59:38 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam18@gmail.com"): Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:59:39 - [MESSAGE][PASSED] - Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:59:39 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "085171607859"): Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:59:40 - [MESSAGE][PASSED] - Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:59:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:59:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:59:41 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:59:42 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 19:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-003" time="13.862" classname="Test Cases/Register/TC-A1-003" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:59:42 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-003: Test Cases/Register/TC-A1-003
+
+2023-01-07 19:59:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:59:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 19:59:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:59:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:59:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:59:45 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:59:46 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 19:59:46 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 19:59:50 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:59:52 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 19:59:52 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@yopmail.com"): Text 'afsyussalaam@yopmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:59:53 - [MESSAGE][PASSED] - Text 'afsyussalaam@yopmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 19:59:53 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490881"): Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:59:54 - [MESSAGE][PASSED] - Text '081310490881' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 19:59:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:59:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 19:59:55 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 19:59:55 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 19:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-004" time="15.269" classname="Test Cases/Register/TC-A1-004" status="PASSED">
+         <system-out><![CDATA[2023-01-07 19:59:56 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-004: Test Cases/Register/TC-A1-004
+
+2023-01-07 19:59:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 19:59:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 19:59:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 19:59:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 19:59:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 19:59:59 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:03 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:03 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:08 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:09 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:09 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam19@gmail.com"): Text 'afsyussalaam19@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:10 - [MESSAGE][PASSED] - Text 'afsyussalaam19@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:10 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490"): Text '081310490' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:11 - [MESSAGE][PASSED] - Text '081310490' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0' is clicked on
+
+2023-01-07 20:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-005" time="12.748" classname="Test Cases/Register/TC-A1-005" status="PASSED">
+         <system-out><![CDATA[2023-01-07 20:00:12 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-005: Test Cases/Register/TC-A1-005
+
+2023-01-07 20:00:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:00:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:00:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:00:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:00:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:00:14 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:15 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:15 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:20 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:22 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:22 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam19@gmail.com"): Text 'afsyussalaam19@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:23 - [MESSAGE][PASSED] - Text 'afsyussalaam19@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:23 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490"): Text '081310490' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:24 - [MESSAGE][PASSED] - Text '081310490' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0' is clicked on
+
+2023-01-07 20:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-006" time="12.658" classname="Test Cases/Register/TC-A1-006" status="PASSED">
+         <system-out><![CDATA[2023-01-07 20:00:24 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-006: Test Cases/Register/TC-A1-006
+
+2023-01-07 20:00:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:00:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:00:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:00:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:00:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:00:27 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:29 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:29 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:34 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam19@gmail.com"): Text 'afsyussalaam19@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:36 - [MESSAGE][PASSED] - Text 'afsyussalaam19@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "081310490880123"): Text '081310490880123' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:36 - [MESSAGE][PASSED] - Text '081310490880123' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0' is clicked on
+
+2023-01-07 20:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Nomor ponsel minimal 10 digit dan berawalan 0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-007" time="13.955" classname="Test Cases/Register/TC-A1-007" status="PASSED">
+         <system-out><![CDATA[2023-01-07 20:00:37 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-007: Test Cases/Register/TC-A1-007
+
+2023-01-07 20:00:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:00:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:00:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:00:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:00:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:00:39 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:41 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:41 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:47 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:00:47 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam@gmail.com"): Text 'afsyussalaam@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:48 - [MESSAGE][PASSED] - Text 'afsyussalaam@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "085171607859"): Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:49 - [MESSAGE][PASSED] - Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:00:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:00:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:00:49 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:00:50 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 20:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-008" time="45.38" classname="Test Cases/Register/TC-A1-008" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/TC-A1-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-01-07 20:00:51 - [TEST_CASE][FAILED] - Test Cases/Register/TC-A1-008: Test Cases/Register/TC-A1-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-01-07 20:00:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:00:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:00:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:00:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:00:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:00:53 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:56 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:00:56 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:01:02 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam18@gmail.com"): Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:01:03 - [MESSAGE][PASSED] - Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "085171607859"): Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:01:04 - [MESSAGE][PASSED] - Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:01:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:01:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:01:05 - [TEST_STEP][FAILED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email harus mengandung")): Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1673095965584.run(Script1673095965584.groovy:35)
+	... 13 more
+)
+
+2023-01-07 20:01:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-07 20:01:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1673095965584.run(Script1673095965584.groovy:35)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_195910\\Register\\Register\\20230107_195910\\1673096496444.png]]]]></system-out>
+         <system-err><![CDATA[2023-01-07 20:00:51 - [TEST_CASE][FAILED] - Test Cases/Register/TC-A1-008: Test Cases/Register/TC-A1-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-009" time="14.741" classname="Test Cases/Register/TC-A1-009" status="PASSED">
+         <system-out><![CDATA[2023-01-07 20:01:36 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-009: Test Cases/Register/TC-A1-009
+
+2023-01-07 20:01:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:01:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:01:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:01:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:01:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:01:39 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:01:41 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:01:41 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:01:46 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:01:47 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam18@gmail.com"): Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:01:48 - [MESSAGE][PASSED] - Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "085171607859"): Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:01:49 - [MESSAGE][PASSED] - Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:01:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:01:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:01:50 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:01:50 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 20:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-010" time="45.793" classname="Test Cases/Register/TC-A1-010" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/TC-A1-010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-010.run(TC-A1-010:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' located by '//div[@id='__layout']/div/div[4]/div[2]/div/div[4]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-01-07 20:01:51 - [TEST_CASE][FAILED] - Test Cases/Register/TC-A1-010: Test Cases/Register/TC-A1-010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-010.run(TC-A1-010:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' located by '//div[@id='__layout']/div/div[4]/div[2]/div/div[4]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-01-07 20:01:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:01:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:01:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:01:53 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:01:56 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:01:56 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:02:02 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam18@gmail.com"): Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:02:03 - [MESSAGE][PASSED] - Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "085171607859"): Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:02:04 - [MESSAGE][PASSED] - Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:02:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:02:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:02:05 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:02:05 - [TEST_STEP][FAILED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-010.run(TC-A1-010:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' located by '//div[@id='__layout']/div/div[4]/div[2]/div/div[4]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1673096257706.run(Script1673096257706.groovy:37)
+	... 13 more
+)
+
+2023-01-07 20:02:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__layout']/div/div[4]/div[2]/div/div[4]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-07 20:02:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-010.run(TC-A1-010:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' located by '//div[@id='__layout']/div/div[4]/div[2]/div/div[4]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1673096257706.run(Script1673096257706.groovy:37)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\rizky\\git\\qa_ordent_assignmetn\\Reports\\20230107_195910\\Register\\Register\\20230107_195910\\1673096557112.png]]]]></system-out>
+         <system-err><![CDATA[2023-01-07 20:01:51 - [TEST_CASE][FAILED] - Test Cases/Register/TC-A1-010: Test Cases/Register/TC-A1-010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-010.run(TC-A1-010:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' located by '//div[@id='__layout']/div/div[4]/div[2]/div/div[4]/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC-A1-011" time="15.293" classname="Test Cases/Register/TC-A1-011" status="PASSED">
+         <system-out><![CDATA[2023-01-07 20:02:37 - [TEST_CASE][PASSED] - Test Cases/Register/TC-A1-011: Test Cases/Register/TC-A1-011
+
+2023-01-07 20:02:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-07 20:02:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-07 20:02:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-07 20:02:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-07 20:02:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-07 20:02:39 - [TEST_STEP][PASSED] - navigateToUrl("https://bioskoponline.com/"): Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:02:43 - [MESSAGE][PASSED] - Navigate to 'https://bioskoponline.com/' successfully
+
+2023-01-07 20:02:43 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Daftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Daftar' is clicked on
+
+2023-01-07 20:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__name"), "Afsyus Salaam"): Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:02:48 - [MESSAGE][PASSED] - Text 'Afsyus Salaam' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__name'
+
+2023-01-07 20:02:48 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__email"), "afsyussalaam18@gmail.com"): Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:02:49 - [MESSAGE][PASSED] - Text 'afsyussalaam18@gmail.com' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__email'
+
+2023-01-07 20:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("TC-A1-001/Page_Bioskop Online/input__phone"), "085171607859"): Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:02:50 - [MESSAGE][PASSED] - Text '085171607859' is set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__phone'
+
+2023-01-07 20:02:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:02:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-A1-001/Page_Bioskop Online/input__w-1112 border-b bg-transparent focus_7b9b6f'
+
+2023-01-07 20:02:51 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/span_Lanjutkan")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/span_Lanjutkan' is clicked on
+
+2023-01-07 20:02:51 - [TEST_STEP][PASSED] - click(findTestObject("TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar")): Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on
+
+2023-01-07 20:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email yang kamu masukkan sudah terdaftar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-07 19:59:14 - [TEST_SUITE][FAILED] - Register: Test Cases/Register/TC-A1-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-01-07 19:59:14 - [TEST_SUITE][FAILED] - Register: Test Cases/Register/TC-A1-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC-A1-008.run(TC-A1-008:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673096350649.run(TempTestSuite1673096350649.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-A1-001/Page_Bioskop Online/div_Email harus mengandung' located by '//div[@id='__layout']/div/div[4]/div[2]/div/form/div[2]/label/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
