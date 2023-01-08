@@ -37,5 +37,3 @@ WebUI.setText(findTestObject('Login/input_Kode_OTP'), '2222')
 
 WebUI.click(findTestObject('Login/span_Verifikasi'))
 
-WebUI.waitForElementPresent(findTestObject('TC-A1-001/div_Nomor handphone telah digunakan'), 0)
-

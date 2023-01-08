@@ -31,11 +31,9 @@ WebUI.click(findTestObject('Login/button_Masuk'), FailureHandling.STOP_ON_FAILUR
 
 WebUI.waitForElementPresent(findTestObject('Login/div_Kirim OTP Melalui'), 0)
 
-WebUI.click(findTestObject('Login/span_SMS'))
+WebUI.click(findTestObject('Login/span_WhatsApp'))
 
-WebUI.click(findTestObject('Login/input_Kode_OTP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(120, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Login/span_Verifikasi'))
+WebUI.waitForElementPresent(findTestObject('Login/div_Waktu telah habis, silahkan kirim ulang kode'), 0)
 

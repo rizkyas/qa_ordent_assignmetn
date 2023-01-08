@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Login/button_Masuk'), FailureHandling.STOP_ON_FAILUR
 
 WebUI.waitForElementPresent(findTestObject('Login/div_Kirim OTP Melalui'), 0)
 
-WebUI.click(findTestObject('Login/span_SMS'))
+WebUI.click(findTestObject('Login/span_WhatsApp'))
 
-WebUI.waitForElementPresent(findTestObject('Login/div_Maaf kamu sudah mencapai batas maksimum verifikasi kode OTP'), 0)
+WebUI.waitForElementPresent(findTestObject('Login/div_7859_border border-opacity-50 rounded-full px-7 py-3 mb-2'), 0)
 

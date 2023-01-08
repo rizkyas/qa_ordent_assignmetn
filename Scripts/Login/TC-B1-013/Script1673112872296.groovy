@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Login/button_Masuk'), FailureHandling.STOP_ON_FAILUR
 
 WebUI.waitForElementPresent(findTestObject('Login/div_Kirim OTP Melalui'), 0)
 
-WebUI.click(findTestObject('Login/span_SMS'))
+WebUI.click(findTestObject('Login/span_WhatsApp'))
 
 WebUI.click(findTestObject('Login/input_Kode_OTP'), FailureHandling.STOP_ON_FAILURE)
 
